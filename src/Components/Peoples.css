@@ -1,0 +1,60 @@
+
+.faculty-container{
+    background-color: cornsilk;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.uniqueId{
+    height: 100px;
+    width: 100px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px; 
+  }
+  .t{
+    text-align: center;
+  }
+  #dropdown-basic::after{
+    display: none; 
+ }
+ .h{
+  color: chocolate;
+  text-align: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgb(233, 78, 78);
+}
+.post{
+  color: green;
+  margin-left: 55px;
+  font-family: "Times New Roman", Times, serif;
+}
+.first-txt { 
+  position: absolute; 
+  top: 155px; 
+  left: 50px; 
+  color: chocolate;
+  font-family: "Times New Roman", Times, serif;
+} 
+/*zoom on hover */
+.crd:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  padding-left: 20px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .crd {
+    width:100%;
+  }
+}

@@ -1,0 +1,28 @@
+
+.addAssignmentDiv{
+    width:auto
+}
+.addAssignmentDiv >div{
+    width:70%; /* 70% of the parent*/
+    margin:10px auto;
+    height: auto;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.inputWrapper #idd{
+    width: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+.inputWrapper >input{
+    width: 60%;
+    height: 40px;
+}
+.addAssignmentContainer .inputWrapper{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.addAssignmentContainer .headingText{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

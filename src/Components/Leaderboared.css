@@ -1,0 +1,106 @@
+/*
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color:#f1f1f1 ;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  */
+  /*
+  .child {
+    flex: 1 0 21%; //explanation below 
+    margin: 5px;
+    height: 250px;
+    background-color:#fff;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .p{
+      text-align: center;
+      font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .i{
+    margin-left: 100px;
+  }
+  .button {
+   margin-left: 100px;
+  }
+  */
+  .loader {
+    margin-left: 300px;
+    margin-top:50px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid pink;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /*flex Container
+  */
+  .leaderboaredFlexContainer{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+  }
+  .leaderboaredFlexContainer >div{
+    background-color: #ffffff;
+    width: 40%;
+    margin: 10px;
+    text-align: start;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  /*
+  Top navbar
+  */
+  .topnav {
+    overflow: hidden;
+    background-color:  #ffffff;
+    margin-top:0px;
+    margin-left:20px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:#666666;
+    font-family: sans-serif;
+  }
+  
+  .topnav a:hover {
+   /* background-color: #ddd;*/
+    color: black;
+    border-bottom: 2px solid #006666;
+    
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }

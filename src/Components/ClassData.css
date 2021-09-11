@@ -1,0 +1,53 @@
+/*
+.classDataWraper{
+    width: 100%;
+    margin-top: 10px;
+}
+ .classDataWraper .contestDataHead{
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#cclassDataInfo{
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 20px;
+  }
+  
+  #classDataInfo td, #classDataInfo th {
+    border: 0px solid #ddd;
+    padding: 8px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    text-align: center;
+  }
+  
+.classDataWraper table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  .classDataWraper th {
+   background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  
+ .contestDataWraper .paginationSection{
+    margin-left: 30%;
+  }
+  */
+  .abc{
+    background-color:#f1f1f1;
+  }
+   #classDataInfo{
+    background-color:#ffffff;
+  }

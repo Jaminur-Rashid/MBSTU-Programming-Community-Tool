@@ -1,0 +1,73 @@
+.messageContainer{
+    height: 750px;
+    width: 100%;
+}
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  .hText {
+    color: chocolate;
+    text-align: center;
+    /*border-bottom: 2px solid rgb(233, 78, 78);*/
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .aboutColumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 500px;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+
+  .b{
+      margin-left: 100px;
+      margin-bottom: 10px;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .aboutColumn {
+      width: 100%;
+      display: block;
+    }
+  }
+  .text{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: cursive;
+}

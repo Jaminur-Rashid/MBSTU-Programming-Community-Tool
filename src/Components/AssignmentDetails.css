@@ -1,0 +1,40 @@
+.mainDiv{
+    background-color:#f1f5f5;
+    width:100%;
+    
+}
+.mainDiv .child{
+    background-color: white;
+    padding:20px 20px;
+    width:70%;
+    margin :20px auto;
+    padding-top:20px;
+}
+.child p{
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.problemContainer{
+    background-color:#f3f7f7;
+    /*background-color: cornflowerblue;*/
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper >div{
+  background-color:#ffffff;
+  width: 70%;
+  margin-top: 10px;
+  margin:10px auto;
+  /*text-align: center;*/
+  line-height: 50px;
+  font-size: 30px;
+  
+}
+.wrapper p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+}

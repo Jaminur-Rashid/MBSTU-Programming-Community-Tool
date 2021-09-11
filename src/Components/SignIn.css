@@ -1,0 +1,8 @@
+
+.signInContainer{
+    background-color: white;
+    margin:100px 0px 100px 300px;
+}
+.signInContainer.mainSection{
+    margin-left: 100px;
+}

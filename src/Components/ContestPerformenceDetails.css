@@ -1,0 +1,9 @@
+.conPerWrapper{
+    background-color: #f1f5f5;
+    width: 100%;
+}
+.conPerWrapper .child{
+    width: 50%;
+    background-color: #ffffff;
+    margin: 20px auto;
+}

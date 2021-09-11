@@ -1,0 +1,10 @@
+.bscWrapper p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.bscWrapper h6{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: chocolate;
+    text-align: center;
+}

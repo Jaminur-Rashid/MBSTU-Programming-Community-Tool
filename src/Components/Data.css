@@ -1,0 +1,11 @@
+
+.dataWrapper{
+    background-color: #f1f1f1;
+    margin: 0px auto;
+    width: 70%;
+    
+  }
+  .dataWrapper .assignmentContainer{
+    background-color: #ffffff;
+    margin: 0px auto;
+  }

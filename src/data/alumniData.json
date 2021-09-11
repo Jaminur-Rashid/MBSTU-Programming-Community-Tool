@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "jaminur Rashid",
+      "p": "./../assets/image-1.PNG",
+      "email": "Sincere@april.biz",
+    
+      "phone": "01710875647",
+      "website": "hildegard.org",
+      "batch":"13th",
+    "company"  :"ABC Soft Ltd.",
+      "role":"Software Engineer"
+    },
+    {
+        "id": 2,
+        "name": "Rkibul Islam",
+        "p": "./../assets/image-1.PNG",
+        "email": "abc@gmail.com",
+      
+        "phone": "01710875687",
+        "website": "hildegard.org",
+        "batch":"10th",
+        "company" :"Alpha Soft Ltd.",
+        "role":"SQA Engineer"
+      },
+      {
+        "id": 3,
+        "name": "Rassel",
+        "p": "./../assets/image-1.PNG",
+        "email": "df66@gmail.com",
+      
+        "phone": "01710875667",
+        "website": "hildegard.org",
+        "batch":"4th",
+        "company" :"Gamma Soft Ltd.",
+        "role":"Lead Engineer"
+      },
+      {
+        "id": 4,
+        "name": "Tanoy",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"9th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 5,
+        "name": "Rashid Bin Amin",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"Beta Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 6,
+        "name": "Belal",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 7,
+        "name": "jaminur Rashid",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 8,
+        "name": "jaminur Rashid",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 9,
+        "name": "jaminur Rashid",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      },
+      {
+        "id": 10,
+        "name": "jaminur Rashid",
+        "p": "./../assets/image-1.PNG",
+        "email": "Sincere@april.biz",
+      
+        "phone": "01710875647",
+        "website": "hildegard.org",
+        "batch":"13th",
+        "company" :"ABC Soft Ltd.",
+        "role":"Software Engineer"
+      }
+    
+  ]

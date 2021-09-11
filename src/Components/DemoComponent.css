@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .navigation {
+    overflow: hidden;
+    height: 80px;
+    background-color: #001733;
+    background-color: RGB(9,40,62);
+    background-color: #0081a7;
+    width: 100%;
+    border-bottom: 1px solid black;
+    /*position:fixed;*/
+   
+    background-color: RGB(9,40,62);
+    background-color: #111f52;
+    background-color: #ae152d;
+    background-color: #a42340;
+    background-color: #ffffff;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation a {
+    margin-top:10px;
+    float: left;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    padding: 14px 15px;
+    
+  }
+  
+  
+  .dropdownclass {
+    float: left;
+    overflow: hidden;
+    margin-top:30px;
+  }
+  
+  .dropdownclass .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  .navigation a:hover, .dropdownclass:hover .dropbtn {
+    /*background-color:teal;
+    border-bottom: 3px solid red;
+    */
+    color: #e74c3c;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 50%;
+    margin-left: 500px;
+    /*margin-top: 30px;*/
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    width: 100%;
+    background: rgb(41, 30, 26);
+    padding: 16px;
+    color: white;
+    font-size: 16px; 
+  }
+  
+  .dropdownclass:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .navigation a{
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .navigation{
+      width: auto;
+      height: auto;
+    }
+    .navigation a {
+      float: none;
+      display: block;
+      text-align:center;
+      background-color:#003366;
+      color: #ffffff;
+      margin: 1px 0px;
+      text-decoration: none;
+    }
+  }
+ 

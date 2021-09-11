@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Professor Jalal Uddin",
+      "p": "./../assets/image-1.PNG",
+      "email": "Sincere@april.biz",
+      "speech":"Computer Science and Engineering is at the intellectual forefront of the digital revolution that will define the 21st century. That revolution is in its early stages but is visible all around us.",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "speech":"Computer Science and Engineering is at the intellectual forefront of the digital revolution that will define the 21st century. That revolution is in its early stages but is visible all around us.",
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "speech":"Computer Science and Engineering is at the intellectual forefront of the digital revolution that will define the 21st century. That revolution is in its early stages but is visible all around us.",
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    }
+    
+  ]

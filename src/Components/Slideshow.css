@@ -1,0 +1,20 @@
+.slideshow{
+    height: 40px;
+    width: 100%;
+    background-color: cadetblue;
+    padding-right: 100;
+}
+.topSlider.img{
+    height: 200px;
+    width:100%;
+}
+.topSlider.h{
+    color: red;
+}
+.sliderFrame{
+    height: 300px;
+    width: 100%;
+}
+.slideWrapper .d-block w-100{
+    height: 200px;
+}

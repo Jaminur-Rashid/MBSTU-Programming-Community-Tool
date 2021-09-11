@@ -1,0 +1,51 @@
+/*
+.alumniWraper{
+    width: 100%;
+}
+ .alumniHead{
+    margin-left: 100px;
+    text-align: center;
+    color: chocolate;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#alumniInfo{
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  #alumniInfo td, #alumniInfo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+   
+   background-color: purple;
+    color: white;
+  }
+  */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}

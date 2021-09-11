@@ -1,0 +1,49 @@
+
+.footer{
+    width: 100%;
+    /* background-color:teal;*/
+    background-color:#005469;
+    background-color: #001733;
+    background-color: RGB(9,40,62);
+    background-color: #111f52;
+  /* background-color: lightblue;*/
+}
+.footer .fText{
+    color: #fff;
+    padding-left: 300px;
+    
+}
+@media screen and (max-width: 300px) {
+  .footer {
+    width: 100%;
+    display: block;
+  }
+}
+div .footerContainer ul li{
+  color: red;
+  color: #fff;
+  margin: 5px 0px 0px 50px;
+  list-style: none;
+}
+div .footerContainer ul{
+  padding-top: 30px;
+}
+/*
+    footer layout 
+*/
+.footerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footerContainer .item{
+  width: 30%;
+  font-size: 18px;
+}
+/*
+    li hover effect
+*/
+div .footerContainer ul li:hover{
+ 
+  color: red;
+}

@@ -1,0 +1,48 @@
+
+.contestDataWraper{
+    width: 100%;
+    margin-top: 10px;
+}
+ .contestDataWraper .contestDataHead{
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#contestDataInfo{
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 20px;
+  }
+  
+  #contestDataInfo td, #contestDataInfo th {
+    border: 0px solid #ddd;
+    padding: 8px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    text-align: center;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+   background-color: #003366;
+    color: white;
+    border-radius: 5px;
+  }
+  /*
+  style pagination
+  */
+ .contestDataWraper .paginationSection{
+    margin-left: 30%;
+  }

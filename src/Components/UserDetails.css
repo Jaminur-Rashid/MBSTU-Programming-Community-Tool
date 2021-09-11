@@ -1,0 +1,192 @@
+/*
+.userDetails{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 30%;
+    height: 1000px;
+    position: relative;
+    background-color: royalblue;
+}
+*/
+/*It works*/
+/*
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
+  .flex-item {
+    width:50%;
+    background-color: turquoise;
+    background-position: center center;
+    background-size: cover;
+    margin: 2px;
+    flex: auto;
+    height: auto;
+    flex-basis: 300px;
+  }
+   <div className="flex-container">
+        <div className="flex-item">
+        <ListGroup as="ul">
+            <ListGroup.Item as="li" active className="bg-danger" style={{textAlign:'centre'}}>
+            Jaminur Rashid Statistics
+            </ListGroup.Item>
+            <ListGroup.Item  as="li">Total Solve :           <Badge style={{marginLeft:'150px'} } variant="danger">{totSolve}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Max Rating :             <Badge style={{marginLeft:'150px'} } variant="danger">{maxRat}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Average Attempt:             <Badge style={{marginLeft:'120px'} } variant="danger">{avgAttempt}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxUp Rating  :          <Badge style={{marginLeft:'130px'} } variant="danger">{maxUp}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxDown Rating :         <Badge style={{marginLeft:'110px'} } variant="danger">-{maxDown}</Badge>{' '}</ListGroup.Item>
+          </ListGroup>
+        </div>
+        <div className="flex-item">
+        <ListGroup as="ul">
+            <ListGroup.Item as="li" active className="bg-danger">
+            Contest States of jaminurrashid
+            </ListGroup.Item>
+            <ListGroup.Item  as="li">Total Contest :           <Badge style={{marginLeft:'150px'} } variant="danger">{ratArr.length}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Best rank:             <Badge style={{marginLeft:'150px'} } variant="danger">{bestRank}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Worst Rank             <Badge style={{marginLeft:'155px'} } variant="danger">{worstRank}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxUp Rating  :          <Badge style={{marginLeft:'130px'} } variant="danger">{maxUp}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxDown Rating :         <Badge style={{marginLeft:'110px'} } variant="danger">-{maxDown}</Badge>{' '}</ListGroup.Item>
+          </ListGroup>
+        </div>
+        <div className="flex-item">
+        <Chart
+          width={'500px'}
+          height={'300px'}
+          chartType="PieChart"
+          loader={<div>Loading Chart</div>}
+          data={myData}
+
+          options={{
+            title: 'Used Languages ',
+            colors: ['#003F5C', '#FB0007', '#ec8f6e', '#f3b49f', '#f6c7b6'],
+            chartArea: {width: 400, height: 300},
+          }}
+          rootProps={{ 'data-testid': '1' }}
+         />
+        </div>
+        <div className="flex-item">
+        <Chart
+          width={'500px'}
+          height={'300px'}
+          chartType="Bar"
+          loader={<div>Loading Chart</div>}
+          data={prbIndexCountData}
+          options={{
+            // Material design options
+            chart: {
+              title: 'Company Performance',
+              subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            },
+            colors: ["green"],
+          }}
+          // For tests
+          rootProps={{ 'data-testid': '2' }}
+          />
+        </div>
+        <div className="flex-item">
+        <Chart
+        width={'600px'}
+        height={'300px'}
+        chartType="LineChart"
+        loader={<div>Loading Chart</div>}
+        data={userRatingData}
+        options={{
+          hAxis: {
+            title: 'Time',
+          },
+          vAxis: {
+            title: 'Rating',
+           
+          },
+          colors: ["red"],
+         }}
+        rootProps={{ 'data-testid': '1' }}
+        />
+        </div>
+        <div className="flex-item">
+        <ListGroup as="ul">
+            <ListGroup.Item as="li" active className="bg-danger">
+            Jaminur Rashid Statistics
+            </ListGroup.Item>
+            <ListGroup.Item  as="li">Total Solve :           <Badge style={{marginLeft:'150px'} } variant="danger">{totSolve}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Max Rating :             <Badge style={{marginLeft:'150px'} } variant="danger">{maxRat}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">Min rating :             <Badge style={{marginLeft:'155px'} } variant="danger">{minRat}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxUp Rating  :          <Badge style={{marginLeft:'130px'} } variant="danger">{maxUp}</Badge>{' '}</ListGroup.Item>
+            <ListGroup.Item as="li">MaxDown Rating :         <Badge style={{marginLeft:'110px'} } variant="danger">-{maxDown}</Badge>{' '}</ListGroup.Item>
+          </ListGroup>
+        </div>
+        </div>
+  */
+  .flex-container1 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    background-color:#f2f2ff;
+    
+  }
+  
+  .flex-container1 > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width:45%;
+    height:400px;
+    margin-left:50px;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Rajdhani', sans-serif;
+            
+  }
+  /*
+  media queries
+  */
+  @media only screen and (max-width: 900px) {
+    .flex-container1 {
+      display: flex;
+      background-color: white;
+      flex-wrap: wrap;
+      background-color:#f2f2ff;
+      
+    }
+    
+    .flex-container1 > div {
+      background-color: #ffffff;
+      margin: 10px;
+      padding: 10px;
+      font-size: 14px;
+      width:100%;
+      height:400px;
+      margin-left:50px;
+      justify-content: center;
+      border-radius: 10px;
+      font-family: 'Rajdhani', sans-serif;
+              
+    }
+  }
+  /*.solvedPrbDetails{
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: blanchedalmond;
+    height: 500px;
+  }
+  */
+  .solvedPrbDetails{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    width: 100%;
+  }
+  
+  .solvedPrbDetails> div {
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    padding: 10px;
+    color:seagreen;
+  }

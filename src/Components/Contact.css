@@ -1,0 +1,9 @@
+.input-group {
+  width: 90% !important;
+}
+.contactForm{
+  width: 500px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
