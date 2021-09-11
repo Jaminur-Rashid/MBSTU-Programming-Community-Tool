@@ -6,7 +6,7 @@ Through this application the Department can manage all the programmers and their
 * User can register using codeforces id ,uva online judge  id.
 * Students can Login.
 * Programming Leaderbored based on codeforces contest rating in descending order.
-* By clicking user details button one can find that user problem solving .
+* By clicking user details button one can find that user problem solving 
  and codeforces contest rating history in the form of charts.
 * Can schedule juniors programming classes.
 * Can give assignment based on the class topic from uva online judge and codeforces
