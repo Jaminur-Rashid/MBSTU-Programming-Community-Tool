@@ -15,22 +15,35 @@ Through this application the Department can manage all the programmers and their
 * Students can write blogs.
 
 ## Project Screenshots
+
+###### Project Architecture
+![System Ar](https://user-images.githubusercontent.com/76808239/136534876-0ddafd73-dfd4-4129-bd4d-b755f07fbf79.PNG)
+
 ###### Home Page
-![Capture](https://user-images.githubusercontent.com/76808239/132962652-60121e41-3397-4db6-9296-2691c22ffc01.PNG)
+![Home](https://user-images.githubusercontent.com/76808239/136533670-3c62fb14-aef3-4dd8-896c-a958966b316a.PNG)
+
 ###### Admin Dashbored
-![Dashboared](https://user-images.githubusercontent.com/76808239/132962665-546dd92d-42ec-4200-b7dc-05bacc31805f.PNG)
+![Addassignment](https://user-images.githubusercontent.com/76808239/136533786-557597a4-580a-42f0-84d8-05d39d22e0f3.PNG)
 ###### Leaderbored
-![Leaderboared](https://user-images.githubusercontent.com/76808239/132962701-b8958777-4d5a-4618-a553-2c1b291a4e2e.PNG)
+![Leaderboared](https://user-images.githubusercontent.com/76808239/136534052-6f5a90a0-d0de-4b51-bff8-7e82258063f1.PNG)
+
 ###### Problem solving states data
 ![d](https://user-images.githubusercontent.com/76808239/132962853-73747728-b496-4a33-ad84-5e51f4820a40.PNG)
 ![Rating](https://user-images.githubusercontent.com/76808239/132962879-94e7403e-4b60-42db-b150-31d5cbc18602.PNG)
 ![link](https://user-images.githubusercontent.com/76808239/132962892-18bc9fc8-448a-47f6-9593-4209ea446231.PNG)
+
 ###### Contest Performence
-![Contest data](https://user-images.githubusercontent.com/76808239/132962709-dda03b6e-cfdb-43ff-b6dc-2756d4c606ef.PNG)
+![ContestData](https://user-images.githubusercontent.com/76808239/136534252-f10bb89c-19b4-4fc0-9398-426bc6e20c11.PNG)
+
 ###### Assignment Notice
-![assignment](https://user-images.githubusercontent.com/76808239/132962775-cc63c416-e045-4f8a-9e25-15805f83d4a2.PNG)
+![Save As](https://user-images.githubusercontent.com/76808239/136534350-a23cdf37-9515-4715-8e38-45dd2e1a6984.PNG)
+
+###### Assignment Section
+![DetailsAssignment](https://user-images.githubusercontent.com/76808239/136534576-a5dd8733-843d-4cc8-ba15-da8f63478fa7.PNG)
+
 ###### Alumni Information
-![alumni](https://user-images.githubusercontent.com/76808239/132962738-fbabb756-0ae9-450b-a5f6-8a8d0d66245b.PNG)
+![AlumniInfo](https://user-images.githubusercontent.com/76808239/136534677-6ba5d456-03f7-44e3-85ec-10296feb0f70.PNG)
+
 ###### Classes
 ![claass](https://user-images.githubusercontent.com/76808239/132962755-05b5feb8-ffae-4643-ad38-d80da1fa9a31.PNG)
 
